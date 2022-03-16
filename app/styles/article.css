@@ -1,0 +1,37 @@
+.article-list {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.article-list-item {
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#date-text {
+    color:rgb(141, 141, 141);
+}
+
+.article-text-section {
+    width: 50%;
+    max-width: fit-content;
+}
+
+.article-image-section {
+    display: flex;
+    align-items: center;
+}
+
+.article-image-section > img {
+    max-width: 100pt;
+    overflow: hidden;
+}

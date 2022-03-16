@@ -1,0 +1,51 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    align-items: center;
+    background-color: rgb(84, 84, 184);
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(84, 84, 184);
+    color:rgb(255, 255, 255);
+    width: 33vw;
+    height: 40pt;
+    text-decoration: none;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.nav-item.selected {
+    background-color: rgb(50, 50, 110);
+}
+
+.nav-item.not-selected:hover{
+    background-color: rgb(74, 74, 160);
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-sidebar {
+    width: 100%;
+    border-right: 2px black solid;
+    text-align: center;
+}
