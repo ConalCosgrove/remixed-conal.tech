@@ -16,7 +16,7 @@ import type { MetaFunction } from "remix";
 import Navbar from "./navbar";
 
 export const meta: MetaFunction = () => {
-  return { title: "Conal Cosgrove" };
+  return { title: "Conal Cosgrove", "theme-color":"#5454b8" };
 };
 
 export const links: LinksFunction = () => {
