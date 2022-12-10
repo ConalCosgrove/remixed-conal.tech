@@ -1,5 +1,5 @@
-import { Link, useLocation } from "remix";
-import type { LoaderFunction } from "remix";
+import { type LoaderFunction } from "@remix-run/node";
+import { Link, useLocation } from "@remix-run/react";
 export const loader: LoaderFunction = ({request}) => {
     const url = new URL(request.url);
     return url;

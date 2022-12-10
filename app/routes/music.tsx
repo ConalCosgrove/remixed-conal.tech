@@ -1,5 +1,5 @@
-import { Outlet } from "remix";
-import type { LinksFunction } from "@remix-run/react/dist/routeModules";
+import { Outlet } from "@remix-run/react";
+import { type LinksFunction } from "@remix-run/react/dist/routeModules";
 import musicStyleUrl from "~/styles/music.css";
 import articleStyleUrl from "~/styles/article.css";
 import mediumArticleStyleUrl from "~/styles/article-medium.css";

@@ -1,17 +1,9 @@
-import {
-  Links,
-  LiveReload,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-  useLocation,
-} from "remix";
+import { type MetaFunction } from "@remix-run/node";
 
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLocation } from "@remix-run/react";
 import stylesUrl from "~/styles/navbar.css";
 import globalLargeStylesUrl from "~/styles/global-large.css";
 import globalMediumStylesUrl from "~/styles/global-medium.css";
-import type { MetaFunction } from "remix";
 import Navbar from "./navbar";
 
 export const meta: MetaFunction = () => {
