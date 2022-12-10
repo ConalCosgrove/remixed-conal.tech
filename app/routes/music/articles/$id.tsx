@@ -1,4 +1,6 @@
-import { LoaderFunction, useLoaderData } from "remix"
+import { useLoaderData } from "remix"
+import type { LoaderFunction } from "remix"
+
 import Article from "~/article";
 type ArticleData = {
     id: string,
